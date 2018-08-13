@@ -6,6 +6,7 @@
 </head>
 <body>
 	@include('inc.navbar')
+	
 
 	@if(Request::is('/'))
 	<div class="container">
@@ -21,13 +22,10 @@
 		<div class="col-md-4 col-md-4">
 			@include('inc.sidebar')
 		</div>
-		
 	</div>
 	
 	<footer id="footer" class="text-center">
 		afiq second
 	</footer>
-
-	
 </body>
 </html>
